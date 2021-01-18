@@ -21,3 +21,28 @@ var value = 2;
 alpha[value]; // "Y"
 
 Convert the switch statement into an object called lookup. Use it to look up val and assign the associated string to the result variable.
+phoneticLookup("alpha") should equal "Adams"
+
+Passed
+phoneticLookup("bravo") should equal "Boston"
+
+Passed
+phoneticLookup("charlie") should equal "Chicago"
+
+Passed
+phoneticLookup("delta") should equal "Denver"
+
+Passed
+phoneticLookup("echo") should equal "Easy"
+
+Passed
+phoneticLookup("foxtrot") should equal "Frank"
+
+Passed
+phoneticLookup("") should equal undefined
+
+Passed
+You should not modify the return statement
+
+Passed
+You should not use case, switch, or if statements
